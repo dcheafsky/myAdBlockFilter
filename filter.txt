@@ -1,0 +1,11 @@
+google.com##div[data-lhcontainer][data-tma]
+google.com##div[role="listitem"]:has-text("AI Mode")
+brave.com###submit-llm-button
+youtube.com##ytm-rich-section-renderer
+reddit.com##recent-posts
+reddit.com###advertise-button
+facebook.com##div[data-pagelet*="FeedUnit"]:has-text(/People you may know|Suggested for you|Sponsored|Reels and short videos|Reels|Your group suggestions/)
+facebook.com##div[data-pagelet*="FeedUnit"]:has([data-ad-rendering-role="profile_name"] div[role="button"] > span)
+facebook.com##[data-pagelet="Stories"]
+facebook.com##a:has-text("Meta AI")
+linkedin.com##div[data-display-contents]:has-text(/Suggested|Promoted|LinkedIn News/)
