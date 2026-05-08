@@ -1,7 +1,17 @@
 google.com##div[data-lhcontainer][data-tma]
+google.com##div[data-initq]
 google.com##div[role="listitem"]:has-text("AI Mode")
 brave.com###submit-llm-button
+brave.com###llm-snippet
+brave.com##div[data-type="ad"]
+brave.com###search-elsewhere
+brave.com###related-queries
+brave.com###faq
 youtube.com##ytm-rich-section-renderer
+youtube.com##ytd-rich-shelf-renderer:has-text("Playables")
+youtube.com##ytd-rich-shelf-renderer[is-shorts]
+youtube.com##yt-slimline-survey-view-model
+youtube.com##ytd-talk-to-recs-flow-renderer
 reddit.com##recent-posts
 reddit.com###advertise-button
 facebook.com##div[data-pagelet*="FeedUnit"]:has-text(/People you may know|Suggested for you|Sponsored|Reels and short videos|Reels|Your group suggestions/)
