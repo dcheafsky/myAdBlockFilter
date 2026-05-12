@@ -1,6 +1,9 @@
 google.com##div[data-lhcontainer][data-tma]
 google.com##div[data-initq]
 google.com##div[role="listitem"]:has-text("AI Mode")
+google.com##div[data-elevated-container-view-type="timely_bump"]
+google.com##button[aria-label="Try Gemini"]
+google.com##header button:has-text("Upgrade")
 brave.com###submit-llm-button
 brave.com###llm-snippet
 brave.com##div[data-type="ad"]
