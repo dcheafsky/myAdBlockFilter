@@ -23,3 +23,6 @@ facebook.com##div[data-pagelet*="FeedUnit"]:has([data-ad-rendering-role="profile
 facebook.com##[data-pagelet="Stories"]
 facebook.com##a:has-text("Meta AI")
 linkedin.com##div[data-display-contents]:has-text(/Suggested|Promoted|LinkedIn News/)
+brave.com##div.snippet:has(a[href*="tiktok.com"])
+google.com##div[data-rpos]:has(a[href*="tiktok.com"])
+google.com##div#rcnt>div:has-text("AI Overview")
