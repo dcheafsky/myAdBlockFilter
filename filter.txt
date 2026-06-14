@@ -1,8 +1,12 @@
-google.com##div[data-lhcontainer][data-tma]
+google.com##div[data-lhcontainer]:has-text("AI Overview")
 google.com##div[data-initq]
+google.com##div[data-hveid]:has-text("People also search for")
 google.com##div[role="listitem"]:has-text("AI Mode")
+google.com##div[role="listitem"]:has-text("Short videos")
+google.com##div[role="listitem"]:has-text("Shopping")
 google.com##div[data-elevated-container-view-type="timely_bump"]
 google.com##button[aria-label="Try Gemini"]
+google.com##a[aria-label="Search Labs"]
 google.com##header button:has-text("Upgrade")
 brave.com###submit-llm-button
 brave.com###llm-snippet
